@@ -1,0 +1,39 @@
+Design Patterns Used
+
+Exercise 1
+
+1. Composite Pattern
+Used to represent figures where a Figure can be a Circle, Rectangle or Group.
+Group contains a list of Figures.
+
+2. Template Method Pattern
+Used in Plugin class where the algorithm skeleton is defined
+and subclasses implement variable parts.
+
+Factory Pattern is used to create Plugin objects without knowing their exact class.
+
+3. Decorator Pattern
+Used to add responsibilities dynamically to a Component
+without modifying its original code.
+
+4. Observer Pattern
+Used between Joueur and game environment objects
+(Couloir, Camera, Gardien).
+Observers are notified when score changes.
+
+
+Exercise 2
+
+1. Strategy Pattern
+Used to allow changing filtering algorithms dynamically.
+
+2. Adapter Pattern
+Used to integrate an old filtering implementation
+(OldFilter) with a new interface.
+
+3. Template Method Pattern
+Used in Compressor class to define compression steps
+while subclasses implement details.
+
+4. Open/Closed Principle
+Framework allows extension without modifying existing code.
